@@ -264,12 +264,15 @@
 
             <div class="estimate" id="estimate" hidden>
               <p class="eyebrow">Your planning estimate</p>
-              <h3>A practical starting range</h3>
-              <div class="estimate-total">
-                <div><span>Recurring services</span><strong id="monthly-estimate">$0–$0</strong><small>estimated monthly, CAD</small></div>
-                <div><span>Annual services</span><strong id="annual-estimate">$0–$0</strong><small>estimated annually, CAD</small></div>
-              </div>
+              <h3>Your services, clearly priced.</h3>
+              <p class="field-help">All prices in CAD, before HST. Each service shows its billing frequency.</p>
               <div class="estimate-summary" id="estimate-summary"></div>
+              <div class="quote-totals" aria-live="polite">
+                <div><span>Annual total before discount</span><strong id="annual-subtotal">$0–$0</strong></div>
+                <div class="savings"><span>New-client first-year discount · 10%</span><strong id="first-year-savings">$0–$0</strong></div>
+                <div class="after-discount"><span>First-year total after discount</span><strong id="discounted-total">$0–$0</strong><small>Estimated annual cost · CAD · HST extra</small></div>
+              </div>
+              <p class="field-help">New clients receive 10% off all selected services for the first year. Standard pricing applies from year two. Annual totals include 12 monthly or 4 quarterly service periods, plus annual services.</p>
               <div class="estimate-actions">
                 <button class="button" id="copy-estimate" type="button">Copy estimate summary</button>
                 <button class="text-button" id="edit-estimate" type="button">Edit answers</button>

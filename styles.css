@@ -171,6 +171,16 @@ select { width: 100%; height: 47px; padding: 0 13px; border: 1px solid var(--lin
 .estimate-actions { display: flex; align-items: center; gap: 25px; margin-top: 24px; }
 .text-button { border: 0; border-bottom: 1px solid var(--line); background: transparent; padding: 5px 0; font-size: 11px; }
 .estimate-disclaimer { margin: 22px 0 0; color: var(--muted); font-size: 9px; }
+.service-line strong, .service-line small { display: block; }
+.service-line small { margin-top: 4px; color: var(--muted); font-size: 10px; }
+.estimate-summary .service-line { padding: 14px 0; border-bottom: 1px solid #eee; }
+.estimate-summary .service-line > span:last-child { flex-shrink: 0; color: var(--ink); font-weight: 700; }
+.quote-totals { margin: 24px 0; }
+.quote-totals > div { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; padding: 14px 0; font-size: 12px; }
+.quote-totals .savings { color: #28714f; border-top: 1px solid var(--line); }
+.quote-totals .after-discount { display: block; padding: 24px; background: var(--navy); color: white; }
+.after-discount strong { display: block; margin: 8px 0; color: var(--gold-light); font: 500 32px var(--serif); }
+.after-discount small { color: #bcc7d0; font-size: 10px; }
 
 .approach { background: var(--paper); }
 .approach-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: center; }
